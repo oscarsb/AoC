@@ -34,4 +34,3 @@ def sumAllValues(values):
 allValues = getAllValues('1/input.txt')
 sum = sumAllValues(allValues)
 print(sum)
-
