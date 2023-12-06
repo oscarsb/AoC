@@ -32,7 +32,7 @@ def getValues():
                 indexes = [m.start() for m in re.finditer(char, line)]
                 for index in indexes:
                     if(index != -1):
-                        digits[index] = char 
+                        digits[index] = char
 
         smallestKeyNumber = None
         for key in numbers:
